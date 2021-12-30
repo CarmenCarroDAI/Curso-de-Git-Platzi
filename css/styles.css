@@ -3,6 +3,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: cadetblue;
 } 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+}
 
 main {
     border: 1px solid cadetblue;
@@ -12,7 +18,25 @@ main {
     padding: 24px;
     text-align: left;
 }
-
-h2 {
-    font-size: 18px;
+header nav {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header nav ul {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    background: cadetblue;
+    list-style: none;
+    padding: 8px 24px;
+    border-radius: 8px 8px 0 0;
+}
+header nav li:hover {
+    background: mediumslateblue;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
 }
