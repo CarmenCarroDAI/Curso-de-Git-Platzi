@@ -3,3 +3,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: cadetblue;
 } 
+
+main {
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+}
