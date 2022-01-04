@@ -24,3 +24,25 @@ p {
     line-height: 1.4;
     color: slategrey;
 }
+header nav {
+    max-width: 600px;
+    margin: 0 auto;
+}
+header nav ul {
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    background: cadetblue;
+    list-style: none;
+    padding: 8px 24px;
+    border-radius: 8px 8px 0 0;
+}
+header nav li:hover {
+    background: mediumslateblue;
+}
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
