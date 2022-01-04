@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: cadetblue;
+    color: blueviolet;
 } 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
@@ -11,7 +11,7 @@ h2 {
 }
 
 main {
-    border: 1px solid cadetblue;
+    border: 1px solid blueviolet;
     border-radius: 8px;
     max-width: 600px;
     margin: 40px auto;
@@ -41,7 +41,7 @@ header nav ul {
     justify-content: space-between;
 }
 header nav ul li {
-    background: cadetblue;
+    background: blueviolet;
     list-style: none;
     padding: 8px 24px;
     border-radius: 8px 8px 0 0;
