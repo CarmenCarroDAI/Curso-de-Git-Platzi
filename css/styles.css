@@ -8,7 +8,7 @@ main {
     border: 1px solid cadetblue;
     border-radius: 8px;
     max-width: 600px;
-    margin: 40px auto;
+    margin: 0 auto;
     padding: 24px;
     text-align: left;
     background-color: thistle;
@@ -53,4 +53,12 @@ header nav li:hover {
 header nav li a {
     color: white;
     text-decoration: none;
+}
+footer p{
+    color: #FFF;
+    text-decoration: underline;
+    background-color: darkcyan;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
 }
